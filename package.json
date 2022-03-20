@@ -1,0 +1,30 @@
+{
+  "name": "mtApp",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "core-js": "^3.19.3",
+    "element-ui": "^2.15.6",
+    "koa-passport": "^4.1.4",
+    "koa-redis": "^4.0.1",
+    "koa-router": "^10.1.1",
+    "mongoose": "^6.2.7",
+    "nodemailer": "^6.7.2",
+    "nuxt": "^2.15.8",
+    "vue": "^2.6.14",
+    "vue-server-renderer": "^2.6.14",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^4.46.0"
+  },
+  "devDependencies": {
+    "sass": "^1.49.9",
+    "sass-loader": "^10.2.1"
+  }
+}
